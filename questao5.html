@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .header, .footer {
+            background-color: lightcoral;
+            text-align: center;
+            padding: 10px;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: lightblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .sidebar-item {
+            margin: 10px 0;
+        }
+        .main {
+            flex: 1;
+            background-color: lightgreen;
+            padding: 20px;
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="header">Cabeçalho</div>
+        <div class="content">
+            <div class="sidebar">
+                <div class="sidebar-item">Item 1</div>
+                <div class="sidebar-item">Item 2</div>
+                <div class="sidebar-item">Item 3</div>
+                <div class="sidebar-item">Item 4</div>
+                <div class="sidebar-item">Item 5</div>
+            </div>
+            <div class="main">Área de Conteúdo Principal</div>
+        </div>
+        <div class="footer">Rodapé</div>
+    </div>
+</body>
+</html>
